@@ -1,0 +1,10 @@
+%chk=hydrogen.chk
+%nprocs=12
+
+#CBS-QB3
+
+ hydrogen.xyz
+
+0  2
+H          -6.66519         1.96727         0.00000
+

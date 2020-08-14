@@ -1,0 +1,49 @@
+-------------------------------------
+CREGEN - CONFORMER SYMMETRY ANALYSIS
+-------------------------------------
+ =============================
+  # threads =          12
+ =============================
+ input  file name : crest_rotamers_2.xyz
+ output file name : crest_rotamers_3.xyz
+ number of atoms                :    24
+ number of points on xyz files  :    15
+ RMSD threshold                 :   0.1250
+ Bconst threshold               :   0.0200
+ population threshold           :   0.0500
+ conformer energy window  /kcal :   6.0000
+ # fragment in coord            :     2
+ removing structure           2
+ removing structure           8
+ removing structure           9
+ removing structure          11
+ removing structure          13
+ removing structure          14
+ number of reliable points      :     9
+ reference state Etot :  -38.7011436008000     
+ number of doubles removed by rot/RMSD         :           1
+ total number unique points considered further :           8
+   Erel/kcal    Etot      weight/tot conformer  set degen    origin
+    1   0.000  -38.70114    0.32650    0.32650    1    1     mtd1
+    2   0.006  -38.70113    0.32330    0.32330    2    1     mtd2
+    3   0.403  -38.70050    0.16537    0.16537    3    1     mtd5
+    4   1.219  -38.69920    0.04180    0.08340    4    2     input
+    5   1.222  -38.69920    0.04160                          mtd1
+    6   1.224  -38.69919    0.04147    0.04147    5    1     mtd5
+    7   1.275  -38.69911    0.03805    0.03805    6    1     mtd3
+    8   1.602  -38.69859    0.02192    0.02192    7    1     mtd1
+T /K                                  :   298.15
+E lowest                              :   -38.70114
+ensemble average energy (kcal)        :    0.305
+ensemble entropy (J/mol K, cal/mol K) :   13.579    3.246
+ensemble free energy (kcal/mol)       :   -0.968
+population of lowest in %             :   32.650
+ number of unique conformers for further calc            7
+   1       0.000
+   2       0.006
+   3       0.403
+   4       1.219
+   5       1.224
+   6       1.275
+   7       1.602
+ Normal termination.

@@ -1,0 +1,16 @@
+%chk=no3.chk
+%mem=56Gb
+%nprocs=12
+
+#p pbepbe/def2tzvp/w06 opt scrf(cpcm,solvent=generic,read)
+
+ no3
+
+-1  1
+N           1.05499         0.04695        -0.04053
+O           0.43390         0.77508        -0.83242
+O           0.43390        -0.68118         0.75136
+O           2.29717         0.04695        -0.04053
+
+eps=999.0
+

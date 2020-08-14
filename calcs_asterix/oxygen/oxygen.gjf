@@ -1,0 +1,10 @@
+%chk=oxygen.chk
+%nprocs=12
+
+#CBS-QB3
+
+ oxygen.xyz
+
+0  3
+O          -6.66519         2.50731         0.00000
+

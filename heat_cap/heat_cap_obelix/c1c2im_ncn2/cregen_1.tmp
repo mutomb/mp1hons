@@ -1,0 +1,166 @@
+-------------------------------------
+CREGEN - CONFORMER SYMMETRY ANALYSIS
+-------------------------------------
+ =============================
+  # threads =          12
+ =============================
+ input  file name : crest_rotamers_2.xyz
+ output file name : crest_rotamers_3.xyz
+ number of atoms                :    24
+ number of points on xyz files  :   170
+ RMSD threshold                 :   0.1250
+ Bconst threshold               :   0.0200
+ population threshold           :   0.0500
+ conformer energy window  /kcal :   6.0000
+ # fragment in coord            :     2
+ removing structure           6
+ removing structure          14
+ removing structure          16
+ removing structure          20
+ removing structure          28
+ removing structure          29
+ removing structure          35
+ removing structure          37
+ removing structure          40
+ removing structure          44
+ removing structure          46
+ removing structure          48
+ removing structure          52
+ removing structure          56
+ removing structure          58
+ removing structure          64
+ removing structure          80
+ removing structure          84
+ removing structure          90
+ removing structure          94
+ removing structure          95
+ removing structure          96
+ removing structure          98
+ removing structure         101
+ removing structure         109
+ removing structure         111
+ removing structure         115
+ removing structure         133
+ removing structure         156
+ removing structure         163
+ removing structure         165
+ removing structure         167
+ number of reliable points      :   138
+ reference state Etot :  -38.7015369571000     
+ number of doubles removed by rot/RMSD         :          60
+ total number unique points considered further :          78
+   Erel/kcal    Etot      weight/tot conformer  set degen    origin
+    1   0.000  -38.70154    0.03343    0.33372    1   10     mtd4
+    2   0.000  -38.70154    0.03342                          mtd1
+    3   0.000  -38.70154    0.03342                          mtd2
+    4   0.000  -38.70154    0.03340                          mtd2
+    5   0.000  -38.70154    0.03340                          mtd2
+    6   0.001  -38.70154    0.03340                          mtd4
+    7   0.001  -38.70154    0.03338                          mtd2
+    8   0.001  -38.70154    0.03338                          mtd4
+    9   0.003  -38.70153    0.03329                          mtd3
+   10   0.004  -38.70153    0.03321                          mtd1
+   11   0.247  -38.70114    0.02205    0.13213    2    6     mtd1
+   12   0.247  -38.70114    0.02205                          input
+   13   0.247  -38.70114    0.02204                          mtd3
+   14   0.247  -38.70114    0.02204                          mtd4
+   15   0.248  -38.70114    0.02201                          mtd1
+   16   0.250  -38.70114    0.02194                          mtd1
+   17   0.252  -38.70114    0.02187    0.15302    3    7     mtd2
+   18   0.252  -38.70114    0.02186                          mtd4
+   19   0.252  -38.70114    0.02186                          mtd2
+   20   0.252  -38.70114    0.02186                          mtd2
+   21   0.252  -38.70114    0.02186                          mtd2
+   22   0.252  -38.70114    0.02185                          mtd2
+   23   0.252  -38.70113    0.02185                          mtd4
+   24   0.375  -38.70094    0.01777    0.23049    4   13     mtd1
+   25   0.375  -38.70094    0.01777                          mtd4
+   26   0.375  -38.70094    0.01777                          mtd1
+   27   0.375  -38.70094    0.01777                          mtd3
+   28   0.375  -38.70094    0.01777                          mtd1
+   29   0.375  -38.70094    0.01777                          mtd1
+   30   0.375  -38.70094    0.01777                          mtd3
+   31   0.375  -38.70094    0.01776                          mtd2
+   32   0.375  -38.70094    0.01776                          mtd3
+   33   0.375  -38.70094    0.01776                          mtd2
+   34   0.375  -38.70094    0.01776                          mtd2
+   35   0.375  -38.70094    0.01776                          mtd3
+   36   0.391  -38.70091    0.01729                          mtd3
+   37   0.654  -38.70049    0.01109    0.03305    5    3     mtd3
+   38   0.658  -38.70049    0.01103                          mtd1
+   39   0.663  -38.70048    0.01093                          mtd4
+   40   0.883  -38.70013    0.00754    0.00754    6    1     mtd2
+   41   0.899  -38.70010    0.00734    0.04402    7    6     mtd4
+   42   0.899  -38.70010    0.00734                          mtd4
+   43   0.899  -38.70010    0.00734                          mtd1
+   44   0.899  -38.70010    0.00734                          mtd2
+   45   0.900  -38.70010    0.00733                          mtd2
+   46   0.900  -38.70010    0.00733                          mtd1
+   47   1.098  -38.69979    0.00525    0.00525    8    1     mtd4
+   48   1.271  -38.69951    0.00392    0.01167    9    3     mtd2
+   49   1.277  -38.69950    0.00388                          mtd3
+   50   1.279  -38.69950    0.00386                          mtd2
+   51   1.384  -38.69933    0.00324    0.00959   10    3     mtd4
+   52   1.388  -38.69933    0.00322                          mtd4
+   53   1.404  -38.69930    0.00313                          mtd2
+   54   1.464  -38.69920    0.00283    0.00283   11    1     mtd1
+   55   1.465  -38.69920    0.00283    0.00283   12    1     mtd2
+   56   1.466  -38.69920    0.00282    0.00282   13    1     mtd2
+   57   1.524  -38.69911    0.00256    0.00256   14    1     mtd3
+   58   1.529  -38.69910    0.00254    0.00507   15    2     mtd3
+   59   1.530  -38.69910    0.00253                          mtd3
+   60   1.679  -38.69886    0.00197    0.00197   16    1     mtd4
+   61   1.679  -38.69886    0.00197    0.00197   17    1     mtd3
+   62   1.682  -38.69886    0.00196    0.00196   18    1     mtd2
+   63   1.692  -38.69884    0.00193    0.00385   19    2     mtd4
+   64   1.694  -38.69884    0.00192                          mtd1
+   65   1.695  -38.69884    0.00192    0.00192   20    1     mtd4
+   66   1.812  -38.69865    0.00157    0.00157   21    1     mtd4
+   67   1.827  -38.69862    0.00153    0.00153   22    1     mtd1
+   68   1.853  -38.69858    0.00147    0.00147   23    1     mtd1
+   69   2.086  -38.69821    0.00099    0.00099   24    1     mtd2
+   70   2.114  -38.69817    0.00095    0.00373   25    4     mtd3
+   71   2.120  -38.69816    0.00094                          mtd4
+   72   2.125  -38.69815    0.00093                          mtd1
+   73   2.129  -38.69814    0.00092                          mtd3
+   74   2.445  -38.69764    0.00054    0.00054   26    1     mtd4
+   75   2.481  -38.69758    0.00051    0.00102   27    2     mtd4
+   76   2.481  -38.69758    0.00051                          mtd4
+   77   2.568  -38.69744    0.00044    0.00088   28    2     mtd4
+   78   2.568  -38.69744    0.00044                          mtd4
+T /K                                  :   298.15
+E lowest                              :   -38.70154
+ensemble average energy (kcal)        :    0.329
+ensemble entropy (J/mol K, cal/mol K) :   32.861    7.854
+ensemble free energy (kcal/mol)       :   -2.342
+population of lowest in %             :   33.372
+ number of unique conformers for further calc           28
+   1       0.000
+   2       0.247
+   3       0.252
+   4       0.375
+   5       0.654
+   6       0.883
+   7       0.899
+   8       1.098
+   9       1.271
+  10       1.384
+  11       1.464
+  12       1.465
+  13       1.466
+  14       1.524
+  15       1.529
+  16       1.679
+  17       1.679
+  18       1.682
+  19       1.692
+  20       1.695
+  21       1.812
+  22       1.827
+  23       1.853
+  24       2.086
+  25       2.114
+  26       2.445
+  27       2.481
+  28       2.568
+ Normal termination.

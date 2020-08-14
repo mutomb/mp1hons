@@ -1,0 +1,10 @@
+%chk=carbon.chk
+%nprocs=12
+
+#CBS-QB3
+
+carbon
+
+0 3
+C          -4.69883         2.55874         0.00000
+
